@@ -16,6 +16,7 @@ let landmarkCount = 0
 
 let gameState = {
 	Total_CP: 0,
+	starts: 0,
 	captured: [],
 	messages: []
 }
@@ -94,6 +95,7 @@ let map = new InteractiveMap({
 
 		// Give it a random number of points
 		landmark.points = Math.floor(Math.random()*10 + 1)
+		landmark.stars = Math.round(Math.random())
 		return landmark
 	}, 
 
@@ -106,6 +108,7 @@ let map = new InteractiveMap({
 
 			// Add points to my gamestate
 			gameState.Total_CP += landmark.points
+			gameState.stars += landmark.stars
 
 			
 
@@ -113,7 +116,7 @@ let map = new InteractiveMap({
 			if (!gameState.captured.includes(landmark.name)) {
 				gameState.captured.push(landmark.name)
 				// Add a message
-				gameState.messages.push(`You reach ${landmark.name} and gain ${landmark.points} Energy Points`)
+				gameState.messages.push(`You reach ${landmark.name} and gain ${landmark.points} Energy Points and ${landmark.stars} stars! `)
 			}
 
 		}
@@ -174,6 +177,7 @@ window.onload = (event) => {
 					<h4>Stop staying at room all day! Move around and try maximizing your energy points!</h4>
 					</br>
 					<h4>Total Energy Points: {{gameState.Total_CP}}</h4>
+					<h4>Stars: {{gameState.stars}}</h4>
 					<h4>Milestones: {{gameState.captured}}</h4>	
 					<h4>Messages: {{gameState.messages}}</h4>	
 					
