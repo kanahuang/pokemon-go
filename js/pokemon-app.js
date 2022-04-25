@@ -59,16 +59,16 @@ let map = new InteractiveMap({
 
 		// Create random landmarks
 		// You can also use this to create trails or clusters for the user to find
-		// for (var i = 0; i < 20; i++) {
+		for (var i = 0; i < 20; i++) {
 
-		// 	// make a polar offset (radius, theta) 
-		// 	// from the map's center (units are *approximately* meters)
-		// 	let position = clonePolarOffset(NU_CENTER, 600*Math.random() + 300, 20*Math.random())
-		// 	this.createLandmark({
-		// 		pos: position,
-		// 		name: words.getRandomWord(),
-		// 	})
-		// }
+			// make a polar offset (radius, theta) 
+			// from the map's center (units are *approximately* meters)
+			let position = clonePolarOffset(NU_CENTER, 600*Math.random() + 300, 20*Math.random())
+			this.createLandmark({
+				pos: position,
+				name: words.getRandomWord(),
+			})
+		}
 	},
 
 	update() {
