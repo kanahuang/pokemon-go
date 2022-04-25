@@ -174,7 +174,7 @@ window.onload = (event) => {
 			<div id="main-columns">
 
 				<div class="main-column" style="flex:1;overflow:scroll;max-height:200px">
-					<h4>Stop staying at room all day! Move around and try maximizing your energy points!</h4>
+					<h4>Stop staying at room all day! Move around and try maximizing your energy points and even stars!</h4>
 					</br>
 					<h4>Total Energy Points: {{gameState.Total_CP}}</h4>
 					<h4>Stars: {{gameState.stars}}</h4>
