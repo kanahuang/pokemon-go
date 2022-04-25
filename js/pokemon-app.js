@@ -113,7 +113,7 @@ let map = new InteractiveMap({
 			if (!gameState.captured.includes(landmark.name)) {
 				gameState.captured.push(landmark.name)
 				// Add a message
-				gameState.messages.push(`You reach ${landmark.name} and gain ${landmark.points} CP`)
+				gameState.messages.push(`You reach ${landmark.name} and gain ${landmark.points} Energy Points`)
 			}
 
 		}
