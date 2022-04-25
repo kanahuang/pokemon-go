@@ -216,7 +216,6 @@ class InteractiveMap {
 				map.requestLocation()
 			}
 		}
-
 		this.landmarks.forEach(landmark => {
 				if (!landmark.isPlayer) {
 				let d = getDistance(landmark.marker, this.playerMarker)

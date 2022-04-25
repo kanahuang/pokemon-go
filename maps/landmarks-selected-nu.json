@@ -1,0 +1,261 @@
+[
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/249749850",
+                "highway": "traffic_signals"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6772906,
+                      42.0511062
+                ]
+          },
+          "id": "node/249749850"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/251846300",
+                "highway": "turning_circle"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6750596,
+                      42.0627836
+                ]
+          },
+          "id": "node/251846300"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/251846303",
+                "highway": "traffic_signals"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.677075,
+                      42.0616298
+                ]
+          },
+          "id": "node/251846303"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/252162793",
+                "highway": "traffic_signals",
+                "restriction:hgv": "no_left_turn"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6817545,
+                      42.0520815
+                ]
+          },
+          "id": "node/252162793"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/252162797",
+                "highway": "traffic_signals"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6816507,
+                      42.0584244
+                ]
+          },
+          "id": "node/252162797"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/252162817",
+                "highway": "traffic_signals",
+                "traffic_signals": "signal"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6771311,
+                      42.058374
+                ]
+          },
+          "id": "node/252162817"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/252162849",
+                "highway": "traffic_signals"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6817095,
+                      42.0538895
+                ]
+          },
+          "id": "node/252162849"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/252162850",
+                "highway": "traffic_signals"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6772092,
+                      42.0538412
+                ]
+          },
+          "id": "node/252162850"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/252162863",
+                "highway": "traffic_signals"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6817161,
+                      42.0504621
+                ]
+          },
+          "id": "node/252162863"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/261115605",
+                "highway": "turning_circle"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6756592,
+                      42.0633047
+                ]
+          },
+          "id": "node/261115605"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/354174296",
+                "created_by": "Potlatch 0.10f",
+                "ele": "183",
+                "gnis:county_id": "031",
+                "gnis:created": "08/01/1994",
+                "gnis:feature_id": "428194",
+                "gnis:state_id": "17",
+                "man_made": "tower",
+                "name": "WNUR-FM (Evanston)"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6732343,
+                      42.0514727
+                ]
+          },
+          "id": "node/354174296"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/368074458",
+                "addr:city": "Evanston",
+                "addr:housenumber": "2001",
+                "addr:postcode": "60208",
+                "addr:state": "IL",
+                "addr:street": "Sheridan Road",
+                "building": "yes",
+                "ele": "183",
+                "gnis:county_name": "Cook",
+                "gnis:feature_id": "2044320",
+                "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+                "gnis:reviewed": "no",
+                "name": "Leverone Hall",
+                "source": "USGS Geonames"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6760221,
+                      42.0538172
+                ]
+          },
+          "id": "node/368074458"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/368074475",
+                "addr:city": "Evanston",
+                "addr:housenumber": "2003",
+                "addr:postcode": "60208",
+                "addr:state": "IL",
+                "addr:street": "Sheridan Road",
+                "building": "yes",
+                "ele": "183",
+                "gnis:county_name": "Cook",
+                "gnis:feature_id": "2044319",
+                "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+                "gnis:reviewed": "no",
+                "name": "Arthur Andersen Hall",
+                "source": "USGS Geonames"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6762285,
+                      42.0543479
+                ]
+          },
+          "id": "node/368074475"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/534000450",
+                "historic": "monument",
+                "name": "The Arch"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6770488,
+                      42.0512624
+                ]
+          },
+          "id": "node/534000450"
+    },
+    {
+          "type": "Feature",
+          "properties": {
+                "@id": "node/534040847",
+                "historic": "monument",
+                "name": "The Rock"
+          },
+          "geometry": {
+                "type": "Point",
+                "coordinates": [
+                      -87.6759271,
+                      42.0515656
+                ]
+          },
+          "id": "node/534040847"
+    }]
