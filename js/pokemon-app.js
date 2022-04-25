@@ -16,7 +16,7 @@ let landmarkCount = 0
 
 let gameState = {
 	Total_CP: 0,
-	starts: 0,
+	stars: 0,
 	captured: [],
 	messages: []
 }
